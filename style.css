@@ -1,0 +1,320 @@
+/*
+Theme Name: Adsatis 
+Version: 1.1
+Author: Barry Reynolds
+Author URI: http://www.reynoldsdigtal.com
+*/
+
+/************** Fonts ****************/
+
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}
+body{line-height:1;}
+ul{list-style:none;}
+blockquote, q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+html{overflow-y:scroll;}
+body{min-width:960px;font-family: "nimbus-sans", Helvetica, Arial, sans-serif;font-style: normal;font-weight:300;font-size:13px;line-height:1.45;color:#5a5a5a;background:#fff url(images/bg.png) top left repeat-x;}
+
+html, body {
+}
+
+/************** TYPOGRAPHY ****************/
+h1,h2,h3,h4,h5,h6{}
+   h1{font-family: "nimbus-sans-n3","nimbus-sans",sans-serif;font-style: normal;font-weight:300!important; font-size:32px;line-height:1.2;padding:0 0 10px 0;color:#fff;}
+   h2{font-size:16px;font-weight:600;padding:10px 0;color:#004b8d;}
+   h3{font-size:13px;font-weight:600;padding:10px 0;color:#004b8d;}
+   #content h1{color:#004B8D;font-family: "nimbus-sans-n3","nimbus-sans",sans-serif;font-style: normal;font-weight:300!important;}
+	
+p{padding:5px 0;}	
+
+strong{font-weight:600;}
+em{font-style:italic;}
+
+
+/************** LINKS ****************/
+a,a:link,a:visited{text-decoration:none;color:#004b8d;}
+a:hover,a:active,a:focus{color:#333;}
+#sidebar a:hover,#sidebar a:active,#sidebar a:focus{text-decoration:underline;color:#004B8D;}
+.home #content a:hover, .home #content a:active, .home #content a:focus {text-decoration:underline;color:#004B8D;}
+
+
+/************** LISTS ****************/
+.disc{list-style-type:disc;margin-left:20px;}
+.decimal{list-style-type:decimal;}
+li{padding:7px 0;}
+dt{font-weight:600;padding:5px 0 5px 20px;background:#fff url(images/list-arrow.jpg) center left no-repeat;}
+dd{padding:5px 0 10px 20px;}
+
+#content ol li{padding-left:20px;}
+#content ul{margin:0 0 0 20px;}
+   #content ul li{padding-left:20px;background:#fff url(images/list-arrow.jpg) center left no-repeat;}
+
+table li{padding:0;}
+
+#wrapper{margin:0 auto;padding:0;background:#fff;overflow:hidden;}
+
+
+/************** HEADER ****************/
+header{height:90px;margin:0 0 20px 0;background:#EDEFF6;}
+
+
+/************** HEADER NAVIGATION ****************/
+.menu-headnav-container{font-size:13px;}
+   ul#menu-headnav{overflow:hidden;}
+   ul#menu-headnav li{float:left;padding:0;}
+   ul#menu-headnav li a{display:block;padding:1px 10px;border-right:1px solid #ddd;}
+
+
+/************** MAIN NAVIGATION ****************/
+#megaMenu{clear:both;overflow;hidden;}
+   #megaMenu ul {float:right;padding:0;margin:0;overflow:hidden;}
+   #megaMenu ul li{float:left;list-style:none;padding:0;margin:0;}
+   #megaMenu ul li a{display:block;font-size:13px;font-weight:normal;font-weight:500;padding:10px 13px;color:#5a5a5a;}
+   #megaMenu ul li a:hover, #megaMenu ul li a:active, #megaMenu ul li a:focus{color:#004b8d;}    
+   #megaMenu li ul{display:none;margin:0 0 0 -50px;padding:11px 0 0 0;background:transparent url(images/nav-arrow-down.png) top center no-repeat;-webkit-box-shadow:0 5px 5px 0 rgba(90,90,90,.3);box-shadow:0 5px 5px 0 rgba(90,90,90,.3);position:absolute;z-index:110;}     
+   #megaMenu li#menu-item-60 ul {margin:0 0 0 -80px;}     
+   #megaMenu li ul li{float:none;padding:0;background: transparent url(http://188.121.50.189/~adsatis/wp-content/themes/adsatis/images/gray.png) top left repeat;}
+   #megaMenu li ul li a{display:block;color:#fff;padding:7px 45px 7px 13px;}
+   #megaMenu li ul li a:hover,#megaMenu li ul li a:active,#megaMenu li ul li a:focus{color:#fff;background: transparent url(http://188.121.50.189/~adsatis/wp-content/themes/adsatis/images/bg-gray-hover.png) top left repeat;}     
+   #megaMenu ul.megaMenu > li.current-menu-item > a, 
+   #megaMenu ul.megaMenu > li.current-menu-parent > a, 
+   #megaMenu ul.megaMenu > li.current-menu-ancestor > a, 
+   #megaMenu ul.megaMenu > li.current-category-ancestor > a {color:#004b8d;}
+
+
+/************** BANNER ****************/
+#banner{margin-bottom:20px;position:relative;}
+   #banner p{width:480px;font-family:"nimbus-sans-n3","nimbus-sans",sans-serif;font-style: normal;font-weight:300!important;font-size:32px;line-height: 1.2;color:#fff;padding:10px 20px 15px 20px;background:rgba(0,75,141,.85);position:absolute;bottom:48px;left:0;}
+
+#cat-banner img{padding-bottom:20px;}   
+
+
+/************** CONTENT ***************/
+#content{clear:both;overflow:hidden;position:relative;}
+   #content div.grid_4{border-top:8px solid #a3b0d2;}
+   #content .grid_4 h2{color:#5A5A5A;}
+   
+   
+/************** CONTACT PAGE ***********/
+#contact-column{width:640px;float:left;} 
+.contact-info .grid_4{border-top:none!important;}
+.contact-info span{display:block;float:left;clear:left;width:60px;}
+.showhidetarget{padding:10px 10px 5px 10px;background:#EDEFF6;display:none;}
+.showhidetarget a{font-size:10px;color:#004b8d;}
+
+.contactmap{padding:5px;background:#EDEFF6;} 
+.contactmap .mapp-layout{border:none!important;} 
+.contactmap a{font-size:10px;padding-left:7px;}
+.mapp-map-links{background:none!important;border:none!important;}
+.contactmap .mapp-canvas{height:180px!important;}
+  
+  
+/************** SLIDER ****************/
+.royalSlider > .rsContent{visibility:hidden;}
+#slider{clear:both;padding:0 0 19px 0px;position:relative;}
+   .royalSlider{overflow:hidden;}
+   #new-royalslider-1, #new-royalslider-2, .rsOverflow, .rsSlide {background:none!important;}
+   .royalSlider{margin:0px 0px 0px 10px;}   
+   .rsImg{float:left;margin-left:0!important;background:#fff;} 
+   #new-royalslider-1 .slide-content{width:480px;color:#fff;padding:10px 20px;background:rgba(0,75,141,.85);position:absolute;bottom:45px;left:0;}
+   #new-royalslider-1 .slide-content h1{font-family: "nimbus-sans-n3","nimbus-sans",sans-serif;font-style: normal;font-weight:300!important;}
+      #new-royalslider-1 .slide-content p a{font-weight:bold;}
+      #new-royalslider-1 .slide-content p a,.slide-content p a:link,.slide-content p a:visited{color:#fff;}
+      #new-royalslider-1 .slide-content p a:hover,.slide-content p a:active,.slide-content p a:focus{text-decoration:underline;}  
+   #new-royalslider-2{margin-left:0;}
+   #new-royalslider-2 .slide-content{width:280px;padding:2px 10px;background:#EDEFF6;background:rgba(237,239,246,.85);position:absolute;bottom:0;}
+   #new-royalslider-2 .slide-content p {color:#004B8D;}
+   
+   
+/************** POSTS - General ****************/
+.p_thumb{padding:5px 20px 10px 20px;margin:0 0 15px 0;background:#EDEFF6;}
+   .p_thumb h2{padding-bottom:2px;}
+   .p_thumb .meta{font-size:11px;}
+   .p_thumb .moretag{padding:0 .5em;}  
+
+.p_nav{overflow:hidden;}
+
+
+/************** POSTS - Homepage ****************/
+.post-excerpt{padding:0 0 5px 0;}
+   .post-excerpt h3{padding:5px 0 0 0;}
+   .post-excerpt h3 a{display:block;padding:0 0 0 20px;background:#fff url(images/list-arrow.jpg) center left no-repeat;}
+   .post-excerpt p{padding:7px 0 7px 15px;}
+
+
+/************** SINGLE POSTS ****************/
+.parent-cat{font-size:36px;padding:0 0 10px 0;color:#004b8d;}
+.p_singe h1{font-size:16px;font-weight:600;color:#5a5a5a!important;}
+.p_singe .meta{font-size:11px;}
+
+
+/************** SINGLE POST - Reated Posts ****************/
+#related-posts{clear:both;margin:20px 0 0 0;padding:10px 0 0 0;border-top:10px solid #EDEFF6;}
+   #related-posts h2{color:#5A5A5A;}
+
+
+/************** SIDEBAR Navigation ****************/
+#sidebar h2{padding:7px 0 7px 15px;color:#004B8D;background:#EDEFF6;border-top:8px solid #a3b0d2;}
+   #sidebar .menu{border-top:8px solid #a3b0d2;}
+   #sidebar .menu li{padding:0;}
+   #sidebar .menu li a{display:block;padding:7px 0 7px 15px;color:#5A5A5A;}
+   #sidebar .menu li a[title="top"]{font-size:16px;font-weight:500;padding-top:10px;color:#004b8d;}
+   #sidebar .menu li.current-menu-item a{background:#EDEFF6;}
+   
+   
+/************** SIDEBAR Related Posts ****************/ 
+#sidebar .related-posts{margin:30px 0 0 0;padding:10px 15px;border:2px solid #c8c8c8;}  
+   #sidebar .related-posts h2{font-size:14px;padding-left:0;color:#5a5a5a;background:none;border-top:none;border-bottom:1px solid #c8c8c8;}
+   #sidebar .related-posts a, #sidebar .related-posts a:link, #sidebar .related-posts a:visited{color:#5a5a5a;}
+   #sidebar .related-posts a:hover, #sidebar .related-posts a:active, #sidebar .related-posts a:focus{color:#004B8D;}
+   #sidebar .related-posts a.morelink{display:block;margin:10px 0 5px 0;}
+   
+   
+/************** SIDEBAR - grid_3 ****************/ 
+.grid_3 #sidebar .title{font-size:24px;font-weight:300;font-style:italic;line-height:31px;padding:20px;background:#EDEFF6;}
+
+
+/************** SIDEBAR - Insights ****************/   
+#cat-sidebar{border-left:1px solid #ddd;padding:15px 15px 20px 15px;}
+#cat-sidebar p{font-size:16px;padding-bottom:12px;}
+
+
+/************** SIDEBAR - Text widget ****************/
+.box a.page-thumbnail{display:block;position:relative;height:204px;}
+.box a.page-thumbnail p{width:280px;padding:2px 10px;background:#EDEFF6;background:rgba(237,239,246,.85);position:absolute;bottom:0;left:0;}
+.box a.page-thumbnail:hover p, .box a.page-thumbnail:active p, .box a.page-thumbnail:focus p{text-decoration:underline;}
+
+
+/************** QUOTE ****************/
+q{display:block;font-style:italic;text-align:center;margin:40px 0 0;padding:11px 0;background:#EDEFF6;}
+
+
+/************** FOOTER ****************/
+footer{font-size:11px;}
+   footer p{padding:18px 0;}
+   .copyright{float:left;}
+   .follow{float:right;width:65px;height:20px;padding:15px 0 20px 0;}
+
+
+/************** CONTACT FORM ****************/
+.iphorm{margin:20px 0 0 0;}
+   .iphorm input{width:94%;padding:6px 8px!important;border:1px solid #d2d2d2;-webkit-border-radius:4px;border-radius:4px;}
+   .iphorm textarea{width:94%;height:100px;padding:6px 8px!important;border:1px solid #d2d2d2;-webkit-border-radius:4px;border-radius:4px;}
+   .iphorm label{padding-bottom:4px!important;}
+   .iphorm-edit-form{display:none;}
+   .iphorm .iphorm-submit-input-wrap{float:right;}
+   .iphorm button{float:right;width:100px!important;margin-right:0!important;-webkit-border-radius:4px;border-radius:4px;}
+   .iphorm button span{background:#004B8D!important;border:none!important;}
+   .iphorm button em{font-weight:bold;color:#fff;background:transparent!important;}
+   .iphorm select{font-family:"nimbus-sans-n3","nimbus-sans",sans-serif!important;font-size:13px!important;width:300px!important;_width: auto;//ie6 hack}
+.iphorm select option {width:300px!important;_width: auto;//ie6 hack}
+   
+/************** REQUEST FORM ****************/   
+#fancybox-content{width:400px!important;padding:0 50px!important;}
+   #fancybox-content h3{text-align:center;font-size:31px;font-weight:normal;padding-top:0;}
+   #fancybox-content .iphorm-inner{padding-top:0!important;}
+   #fancybox-content .iphorm-elements{width:300px;margin:0 auto!important;}
+   .post a.iphorm-fancybox-link{display:block;width:130px;height:28px;text-indent:-9999px;margin:15px 0;background:transparent url(images/request-button.png) center center no-repeat;}
+
+
+/************** SEARCH FORMS  ****************/
+#searchform{float:right;width:210px;margin:18px 0 6px 0;background:#fff;border:1px solid #d2d2d2;-webkit-border-radius:4px;border-radius:4px;}
+   #searchform input#s{float:left;width:140px;font-size:13px;color:#b4b4b4;margin:0;padding:4px 8px;border:none;}
+   #searchform #searchsubmit{float:right;width:30px;height:24px;text-indent:-9999px;background:transparent url(images/icon-search.jpg) center center no-repeat;border:none;}
+   
+#content #searchform{float:left;}   
+
+
+/************** INSIGHTS - navigation ****************/
+#menu-insights-3{margin:17px 0 17px 0!important;overflow:hidden;}
+#menu-insights-3 li{padding:0!important;background-image:none!important;float:left;}
+#menu-insights-3 li a{display:block;width:200px;font-size:24px;text-align:center;padding:15px 130px;margin:0 17px 0 0;background:transparent url(images/tab-nav.jpg) center center no-repeat;}
+#menu-insights-3 li a,#menu-insights-3 li a:link,#menu-insights-3 li a:visited,#menu-insights-3 li a:hover,#menu-insights-3 li a:active,#menu-insights-3 li a:focus{color:#5A5A5A;}
+#menu-insights-3 li a[title="studies"]{height:53px;padding-top:30px;margin:0;}
+#menu-insights-3 li a:hover, #menu-insights-3 li a:active, #menu-insights-3 li a:focus, #menu-insights-3 li.current-menu-item a{color:#fff;background:transparent url(images/tab-nav-current.jpg) center center no-repeat;}   
+
+body.category-trade-and-post-trade-services-cases ul li#menu-item-322 a, body.category-markets-technology-cases ul li#menu-item-322 a, body.category-client-and-sales-management-cases ul li#menu-item-322 a, body.category-enterprise-data-management-cases ul li#menu-item-322 a {color:#fff;background:transparent url(images/tab-nav-current.jpg) center center no-repeat;}
+
+
+/************** INSIGHTS - tabbed area ****************/
+body.category-case-studies #tabs {margin: 0 0 15px 0; }
+body.category-case-studies #tabs .nav {width:940px;overflow:hidden;margin:0 0 10px 10px;}
+body.category-case-studies #tabs .nav li {float:left;width:172px;height:80px;margin:0 20px 0 0;padding:0;background-image:none;background:#EDEFF6;}
+body.category-case-studies #tabs .nav li.first a {padding-top:20px;}
+body.category-case-studies #tabs .nav li.last {margin-right:0;width:170px;}
+body.category-case-studies #tabs .nav li a {display:block;font-size:16px;text-align:center;padding:10px 15px;color#5A5A5A!important;background:#EDEFF6;border-top:8px solid #EDEFF6;}
+body.category-case-studies #tabs .nav li a:link, #tabs .nav li a:visited, #tabs .nav li a:hover, #tabs .nav li a:active, #tabs .nav li a:focus{color:#5A5A5A!important;}
+body.category-case-studies #tabs .nav li a:hover{border-top:8px solid #A3B0D2;}
+body.category-case-studies #tabs a.current{border-top:8px solid #A3B0D2!important;}
+.hide { position: absolute; top: -9999px; left: -9999px; }
+body.category-case-studies #tabs .list-wrap ul{margin-left:0;}
+body.category-case-studies #tabs .list-wrap ul li{padding-left:5px!important;}
+body.category-case-studies #tabs li.case-studies-post{padding-left:0;background-image:none;}
+body.category-case-studies #tabs li{background-image:none!important;padding:0;}
+
+
+/************** INSIGHTS - White Papers ****************/
+#white-papers{margin-left:0!important;}
+#white-papers li{background:#EDEFF6!important;margin:0 0 15px 0;}
+.white-papers-post{position:relative;}
+.white-papers-post h2, .white-papers-post p{width:660px;}
+.white-papers-post a.iphorm-fancybox-link{display:block;width:130px;height:28px;text-indent:-9999px;background:transparent url(images/request-button.png) center center no-repeat;position:absolute;top:50%;right:20px;margin-top:-14px;}
+
+   
+/************** INSIGHTS - Case Studies accordion ****************/
+#accordion h3 {line-height:1.8;font-size:16px;font-weight:600;padding:15px 0 7px 0;cursor:pointer;}   
+#accordion h3 span.morespan{width:60px;height:35px;background:transparent url(images/read-close.jpg) 0 0 no-repeat;text-indent:-9999px;display:inline-block;margin:0 0 0 10px;}
+#accordion h3.ui-accordion-header-active span.morespan{background:transparent url(images/read-close.jpg) 0 -70px no-repeat;}
+
+
+/************** MANAGEMENT TEAM - tabbed area ****************/
+.management-team #tabs .nav {width:940px;overflow:hidden;margin:0 0 24px 10px;}
+.management-team #tabs .nav li {float:left;width:140px;height:200px;margin:0 20px 0 0;padding:0;background-image:none;border-bottom:4px solid #004B8D;border-bottom:4px solid rgba(0,75,141,.85);}
+.management-team #tabs .nav li.last {margin-right:0;}
+.management-team #tabs .nav li a {display:block;position:relative;-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-ms-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;transition: all .2s ease-in-out}
+.management-team #tabs .nav li a.current, .management-team #tabs .nav li a:hover, .management-team #tabs .nav li a:active, .management-team #tabs .nav li a:focus {border-bottom:4px solid #a3b0d2;}
+.boxgrid{width:140px;height:200px;position:relative;top:0;overflow:hidden;}
+.boxgrid img{position:absolute;top:0;left:0;}
+.boxcaption{width:134px;height:60px;text-align:center;padding:7px 3px;color:#fff;background:rgba(0,75,141,.85);position:absolute;}
+.captionfull .boxcaption{bottom:-44px;left:0;}
+.caption .boxcaption{bottom:-58px;left:0;}
+.boxcaption em{display:block;font-style:normal;padding:4px 0 0 0;}
+.management-team #tabs .list-wrap ul{margin-left:0;}
+.management-team #tabs .list-wrap ul li{padding-left:5px!important;}
+.management-team #tabs li.case-studies-post{padding-left:0;background-image:none;}
+.management-team #tabs li{background-image:none!important;padding:0;}   
+.list-wrap ul{overflow:hidden;}
+   .management-team .team-photo{float:left;width:220px;}
+   .management-team .team-photo img{padding:10px;background:#EDEFF6;}
+   .management-team .team-content{float:right;width:455px;}
+   .management-team .team-content h2{padding:0 0 5px 0;}
+   .management-team .team-content h3{font-size:16px;font-weight:normal;padding:0 0 5px 0;color:#5A5A5A}
+   
+   
+/************** MANAGEMENT TEAM - tabbed area ****************/
+#tabs2 {margin: 0 0 15px 0;}
+#tabs2 .menu {width:940px;overflow:hidden;margin:0 0 10px 10px;}
+#tabs2 .menu li {float:left;margin:0;padding:0;background-image:none;color#5a5a5a!important;}
+#tabs2 ul.menu li a{width:132px;height:60px;display:block;font-size:16px;text-align:center;margin:0 20px 0 0;padding:10px 20px;color:#5a5a5a;background:#EDEFF6;border-top:8px solid #EDEFF6;}
+#tabs2 ul.menu li a:link, #tabs2 ul.menu li a:visited, #tabs2 ul.menu li a:hover, #tabs2 ul.menu li a:active, #tabs2 ul.menu li a:focus{color:#5a5a5a;}
+#tabs2 .menu li a[title="first"]{height:45px;padding-top:25px;}
+#tabs2 .menu li a[title="last"]{margin-right:0;width:130px;}
+#tabs2 .menu li a:hover{border-top:8px solid #A3B0D2;}
+#tabs2 li.current-menu-item a{border-top:8px solid #A3B0D2!important;color#5a5a5a!important;}
+      
+      
+/************** Classes ****************/
+.alignleft{float:left;margin-right:15px;}
+.alignright{float:right;margin-left:15px;}
+.intro{font-size:16px;}
+div.sep{height:10px;border-bottom:1px solid #d2d2d2;clear:both;margin:15px 10px 15px 10px;}
+
+.read_more {display:inline;}
+.post-excerpt p {display:inline;}
+
+.excerpt{padding-top:5px;}
+.excerpt p{display:inline;}
+.read-more{display:inline;}
